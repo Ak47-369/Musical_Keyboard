@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    /* padding-top: 40px; */
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DBEDF3;
+    /* background-color: #070F2B; */
+    flex-direction: column;
+}
+
+.dark{
+    background-color: #070F2B;
+    color: white;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+
+.navbar{
+    height: 20vh;
+    width: 100vw;
+    font-family: monospace;
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.heading{
+    margin-left: 200px;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.darkbutton{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+#darkbtn{
+    background-image: url(./circle-half-stroke-solid.svg);
+    height: 30px;
+    width: 30px;
+}
+
+.keyboard-row{
+    display: flex;
+    gap: 10px;
+}
+
+#row-2{
+    padding-left: 50px;
+}
+
+#row-3{
+    padding-left: 160px;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border :0;
+    font-size :4rem;
+    font-family :monospace;
+    box-shadow: 0px 5px 10px rgba(darken(dodgerblue, 40%));
+    transition : all .3s;
+    border-radius : 5px;
+    border-bottom :4px solid lighten(gray, 70%);
+     
+}
+
+.pressed{
+    box-shadow: 0px 4px 8px rgba(darken(dodgerblue, 30%));
+    transform :scale(0.95);
+    background-color: dodgerblue;
+}
+
+.darkmode{
+    background-color: #070F2B;
+}
+
+.dark-text{
+    color : white;
+}
+
+
